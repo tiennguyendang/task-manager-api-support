@@ -10,7 +10,7 @@
 
 ### Bug fixes
 
-- [#206](https://github.com/tiennguyendang/task-manager-api/issues/206) Return only updated fields when performing `ListOperation`
+- [#206](https://github.com/tiennguyendang/task-manager-api/issues/206) Return only updated fields when performing `UpdateOperation`
   - AsIs: When request body has at least one field that have new value, return `request body` with `updatedAt` field
   - ToBe: When request body has at least one field that have new value, return `updated fields` with `updatedAt` field
 - [#207](https://github.com/tiennguyendang/task-manager-api/issues/207) Do not hash new password when performing `UpdateUserOperation`
@@ -22,7 +22,7 @@
 - [#186](https://github.com/tiennguyendang/task-manager-api/issues/186) Refactor success response and error response format
   - Wrap success response data with `data` property
   - Wrap pagination links property with meta property
-  - Return only fields that are updated with new values when doing `ListOperator`
+  - Return only fields that are updated with new values when doing `UpdateOperation`
   - Refactor login response data format
   - Simplify error response format by returning only `name` and `message`
 
