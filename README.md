@@ -1,5 +1,13 @@
 # Change Log
 
+## v2.0.3 (2022-09-28)
+
+### Bug fixes
+
+- [#217](https://github.com/tiennguyendang/task-manager-api/issues/217) Modify validator for pagination query
+  - Must be an integer
+  - Minimum value is 1
+
 ## v2.0.2 (2022-09-22)
 
 ### Bug fixes
